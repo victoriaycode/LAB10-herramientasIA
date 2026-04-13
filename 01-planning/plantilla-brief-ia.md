@@ -16,7 +16,8 @@
 - **Problema:**  [¿Qué falla, es lento o manual? Describe el síntoma] `[Dolor técnico o funcional específico]`
 - **Objetivo Final:** `[Resultado esperado al terminar]` [Frase directa del resultado esperado al finalizar]
 
----## 🏗️ 3. Requerimientos Técnicos, Arquitectura y Flujo (El "Plano")
+---
+## 🏗️ 3. Requerimientos Técnicos, Arquitectura y Flujo (El "Plano")
 
 ### 3.1 Stack y Entorno
 Lenguaje: [TypeScript / Python 3.11+ / Go] (Priorizar tipado fuerte)
@@ -49,8 +50,10 @@ Frameworks/DB: [Next.js, FastAPI, PostgreSQL, Supabase, etc.]
 
 **🏗️ Infraestructura:** [Variables en .env, Docker Compose, GitHub Actions para CI/CD].
 
-🚧 4. Constraints (Restricciones Innegociables)
+---
+## 🚧 4. Constraints (Restricciones Innegociables)
 Reglas que garantizan consistencia y protegen el sistema.
+
 **4.1 Desarrollo y Librerías**
 **[ ] Librerías Externas:** Prohibido usar librerías externas no aprobadas explícitamente por el equipo.
 
@@ -69,7 +72,8 @@ Reglas que garantizan consistencia y protegen el sistema.
 
 **[ ] Sanitización:** Validar y sanitizar todos los inputs para prevenir inyecciones SQL y ataques XSS.
 
-📝 5. Protocolo de Commits e Hitos (Checkpoint System)
+---
+## 📝 5. Protocolo de Commits e Hitos (Checkpoint System)
 
 **Instrucción:** Detente y pide aprobación tras cada hito. Sugiere el commit en formato Conventional Commits.
 
@@ -85,7 +89,9 @@ Hito 5 (Frontend/API): feat(ui): o feat(api): Entrega de interfaces.
 
 Hito 6 (Calidad): test(core): Cobertura del 90% y refactor de generalización.
 
-✅ 6. Definition of Done (DoD)
+---
+## ✅ 6. Definition of Done (DoD)
+
 [ ] **Cobertura de Tests:** El código debe pasar con un 90% de cobertura en tests unitarios.
 
 [ ] **Calidad de Código:** Pasar linters (eslint, ruff, black) sin warnings y sin código muerto.
@@ -96,7 +102,10 @@ Hito 6 (Calidad): test(core): Cobertura del 90% y refactor de generalización.
 
 [ ] **Commits Atómicos:** Se ha realizado un commit descriptivo y único por cada hito completado.
 
-📎 6. Recursos y Referencias
+---
+
+## 📎 7. Recursos y Referencias
+
 **Docs Externos:** [Link a API externa].
 
 **Esquema DB:** [Descripción o diagrama de tablas].
